@@ -26,11 +26,6 @@ public class InventoryUI : MonoBehaviour
             inventoryUIPanel.SetActive(!inventoryUIPanel.activeSelf);
             UpdateUI();
         }
-        else if (CrossPlatformInputManager.GetButtonDown("Jump"))
-        {
-           inventoryUIPanel.SetActive(false);
-            UpdateUI(); 
-        }
     }
 
     void UpdateUI()
